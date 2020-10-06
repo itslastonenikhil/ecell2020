@@ -1,0 +1,6 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.9fr 1.7fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . .";
+}

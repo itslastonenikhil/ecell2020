@@ -1,0 +1,391 @@
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F7F4F3;
+ } 
+/*-----------------------------------
+Responsive designing
+-----------------------------------*/
+
+
+
+
+/* Small devices (portrait tablets and large phones, 768 and less) */
+@media only screen and (max-width: 768px){
+
+
+.cardbox
+{ 
+  width: 279px;
+  margin: 10px;
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 1px;
+  background-color: white;
+}
+
+img
+{
+  width: 279px;
+  height: 279px;
+ 
+
+}
+
+.date
+{
+  background-color: rgba(209, 46, 25);
+  color: white;
+  padding: 10px;
+  font-size: 21px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.topic
+{
+  font-size: 20px;
+  padding: 6px;
+  border-bottom: 2px solid #5D001E;
+}
+
+.about
+{
+  text-align: left;
+  padding: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  height: 54%;
+}
+
+.speaker
+{
+  padding: 6px;
+  background-color: #1F2833;
+  color: white;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /*------------------------
+For right to left
+-------------------------- */
+.cardbox{
+  position: relative;
+  width: 640px; /*83.33% of body*/
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cardbox .card1{
+  width: 240.4px; /*30% of body*/
+}
+
+.cardbox .card2{
+  position: absolute;
+  bottom: 50px; /*6*/
+  left: 224px; /*27*/
+  width: 420px; /*50*/
+  height: 224px; 
+  background-color: lime;
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 1px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/*elements of card1*/
+
+.cardbox .card1 .date{
+  background-color: rgba(209, 46, 25);
+  text-align: center;
+  color: white;
+  padding: 6px;
+  font-size: 21px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.cardbox .card1 .image{
+  width: 240.4px; /*30*/
+  height: 240.4px; 
+}
+
+.topic
+{
+  font-size: 18px;
+  padding: 3px;
+  border-bottom: 2px solid #5D001E;
+}
+
+.about
+{
+  text-align: left;
+  padding: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  height: 54%;
+}
+
+.speaker
+{
+  bottom: 0px;
+  padding: 8px;
+  background-color: #1F2833;
+  color: white;
+}
+
+
+/*-----------------------
+From left to right
+-------------------------*/
+
+.cardbox:nth-of-type(even){
+  position: relative;
+  width: 640px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cardbox:nth-of-type(even) .card1{
+  position: relative;
+  left: 400.34px; /*53.33*/
+  width: 240.4px; /*30*/
+}
+
+.cardbox:nth-of-type(even) .card2{
+  position: absolute;
+  bottom: 50px; /*6*/
+  left: 10px; /*6*/
+  width: 410px; /*50*/
+  height: 224px; 
+}
+
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+/*------------------------
+For right to left
+-------------------------- */
+.cardbox{
+  position: relative;
+  width: 826.66px; /*83.33% of body*/
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cardbox .card1{
+  width: 297.6px; /*30% of body*/
+  max-width: 310.65px; /*31.316% of body*/
+}
+
+.cardbox .card2{
+  position: absolute;
+  bottom: 72px; /*6*/
+  left: 267.84px; /*27*/
+  width: 496px; /*50*/
+  height: 224px; /*198*/ 
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 1px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/*elements of card1*/
+
+.cardbox .card1 .date{
+  background-color: rgba(209, 46, 25);
+  color: white;
+  padding: 10px;
+  font-size: 21px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.cardbox .card1 .image{
+  width: 297.6px; /*30*/
+  height: 297.6px; /*30*/
+  background-color: white;
+}
+
+.topic
+{
+  font-size: 20px;
+  padding: 12px;
+  border-bottom: 2px solid #5D001E;
+}
+
+.about
+{
+  text-align: left;
+  padding: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  height: 54%;
+}
+
+.speaker
+{
+  bottom: 0px;
+  padding: 12px;
+  background-color: #1F2833;
+  color: white;
+}
+
+/*-----------------------
+From left to right
+-------------------------*/
+
+.cardbox:nth-of-type(even){
+  position: relative;
+  width: 826.66px;;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cardbox:nth-of-type(even) .card1{
+  position: relative;
+  left: 529px; /*53.33*/
+  width: 297.6px; /*30*/
+}
+
+.cardbox:nth-of-type(even) .card2{
+  position: absolute;
+  bottom:90px; /*6*/
+  left: 59.52px; /*6*/
+  width: 496px; /*50*/
+  height: 198.4px; /*20*/
+}
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/*------------------------
+For right to left
+-------------------------- */
+.cardbox{
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cardbox .card1{
+  width: 360px;
+  max-width: 380px;
+}
+
+.cardbox .card2{
+  position: absolute;
+  bottom: 72px;
+  left: 324px;
+  width: 600px;
+  height: 240px;
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 1px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/*elements of card1*/
+
+.cardbox .card1 .date{
+  background-color: rgba(209, 46, 25);
+  color: white;
+  padding: 10px;
+  font-size: 21px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.cardbox .card1 .image{
+  width: 360px;
+  height: 360px;
+}
+
+.topic
+{
+  font-size: 24px;
+  color: black;
+  font-family: Poppins;
+  padding: 8px;
+  border-bottom: 2px solid #5D001E;
+}
+
+.about
+{
+  text-align: left;
+  padding: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  height: 54%;
+}
+
+.speaker
+{
+  bottom: 0px;
+  padding: 12px;
+  background-color: #1F2833;
+  color: white;
+}
+
+/*-----------------------
+From left to right
+-------------------------*/
+
+.cardbox:nth-of-type(even){
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.cardbox:nth-of-type(even) .card1{
+  position: relative;
+  left: 640px;
+  width: 360px;
+
+}
+
+.cardbox:nth-of-type(even) .card2{
+  position: absolute;
+  bottom: 72px;
+  left: 72px;
+  width: 600px;
+  height: 240px;
+
+}
+
+
+}
+
+.date{
+  font-family: Poppins;
+}
