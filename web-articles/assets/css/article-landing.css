@@ -1,0 +1,172 @@
+/**/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blog {
+    /* Height and Width */
+    width: 100%;
+}
+
+.blog .header {
+    /* Text Alignment */
+    text-align: center;
+
+    /* Image */
+    background-image: url(../images/landing-header.jpg);
+}
+
+.blog .header div {
+    /* Positioning */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* Width and Height */
+    width: 50%;
+    
+    /* Margin and Padding */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog .articles article {
+    /* Margin and Padding */
+    padding-left: 5%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Width and Height */
+    width: 80%;
+
+    border-bottom: 1px solid black;
+}
+
+.blog .articles article .heading {
+    /* Width and Height */
+    width: 60%;
+
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    /* Colouring */
+    color: black;
+
+    /* Margin and Padding */
+}
+
+.blog .articles article .heading a {
+    /* Colouring */
+    color: black;
+}
+
+.blog .articles article .subtitle {
+    /* Width and Height */
+    width: 60%;
+
+    /* Font Properties */
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    /* Colouring */
+    color: black;
+}
+
+.blog .articles article .other-info {
+    /* Font Properties */
+    font-style: italic;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+
+    /* Margin and Padding */
+    margin-top: 0;
+}
+
+
+.blog .articles article .heading a {
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+
+    /* Smmothing Transition */
+    transition: 0.2s ease-in-out;
+}
+
+.blog .articles article .heading a:visited {
+    /* Colouring */
+    color: black!important;
+}
+
+.blog .articles article .heading a:hover {
+    /* Colouring */
+    color: #007bff;
+}
+
+.blog .old-post {
+    text-align: center;
+}
+
+.blog .old-post h1 {
+    /* Font Properties */
+    text-decoration: none;
+
+    /* Height and Width */
+    width: 30%;
+
+    /* Margin and Padding */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Box Shadow */
+    box-shadow: 0 0 0 2px rgba(38,143,255,.5);
+
+    /* Colouring */
+    color: #fff;
+    background-color: #0085a1;
+    border-color: #0085a1;
+
+}
+
+.blog .old-post a {
+    /* Font Properties */
+    text-decoration: none;
+}
+
+/* Numerical Properties Below */
+
+.blog .header {
+    /* Numerical Properties */
+    height: 500px;
+}
+
+.blog .header h1 {
+    font-size: 70px;
+}
+
+.blog .articles article .heading {
+    /* Font Properties */
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.blog .articles article .subtitle {
+    /* Font Properties */
+    font-weight: 400;
+    font-size: 30px;
+    
+    /* Margin and Padding */
+    margin-top: 1em;
+}
+
+.blog .articles article .other-info {
+    /* Font Properties */
+    font-size: 25px;
+}
+
+.blog .old-post h1 {
+    /* Font Properties */
+    font-size: 40px;
+    
+    /* Margin and Padding */
+    padding: 10px;
+}
