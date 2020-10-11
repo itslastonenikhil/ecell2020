@@ -28,7 +28,7 @@
   font-size: 28px;
 }
 #news h3 {
-  font-size: 23px;
+  font-size: 20px;
 }
 #news h4 {
   font-size: 16px;
@@ -123,8 +123,10 @@
   font-weight: 600;
 }
 .post .post-title {
-  font-size: 18px;
+  
+  padding: 10px;
   margin-bottom: 0;
+  background-color: #212631e3;
 }
 .post-tags li {
   display: inline-block;
