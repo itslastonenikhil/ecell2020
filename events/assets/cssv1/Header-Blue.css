@@ -222,3 +222,18 @@
   opacity: 0.2;
 }
 
+#header-subtitle{
+  font-size: 40px;
+}
+
+
+@media (max-width: 460px) {
+  #header-subtitle{
+    font-size: 27px;
+  }
+  #header-title{
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+}
