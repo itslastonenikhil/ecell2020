@@ -26,14 +26,14 @@
   /* text-align: center; */
 }
 .footer-widget a {
-  color: #a7b3c6;
+  color: #43526b;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
 .footer-widget a:hover,
 .footer-widget a:focus {
   text-decoration: none;
-  color: #c0aa48;
+  color: #10a5a5;
 }
 .footer-ecell-logo {
   margin-bottom: 40px;
@@ -59,11 +59,11 @@
 }
 .footer-social li > a {
   display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 47px;
   text-align: center;
-  background-color: #a7b3c6;
+  background-color: #07383f;
   color: #fff;
   border-radius: 2px;
   -webkit-transition: 0.2s opacity;
@@ -71,6 +71,12 @@
 }
 .footer-social li > a:hover,
 .footer-social li > a:focus {
-  color: rgb(223, 216, 200);
-  opacity: 0.9;
+  color: #072f3f;
+  opacity: 1;
+  background-color: #d6d8da;
+
+}
+
+.footer-social i{
+  font-size: 23px;
 }
