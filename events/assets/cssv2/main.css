@@ -1317,11 +1317,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    font-weight: 600;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #eb0505;
+    color: #158c9c;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2622,7 +2623,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
+    
     padding-bottom: 13.2rem;
     background-color: #FFFFFF;
     color: #757575;

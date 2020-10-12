@@ -907,8 +907,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #eb0505;
-    border-color: #eb0505;
+    background: rgb(55, 140, 143);
+    border-color: rgb(55, 140, 143);
     color: #FFFFFF;
 }
 
@@ -922,8 +922,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background:  rgb(29, 192, 197);
+    border-color:rgb(29, 192, 197);
 }
 
 
@@ -1321,7 +1321,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #eb0505;
+    color: rgb(96, 184, 187);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1748,8 +1748,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     position: absolute;
     top: 0;
-    left: -70px;
-    width: 70px;
+    left: -80px;
+    width: 80px;
     padding-left: 12px;
 }
 
@@ -2073,9 +2073,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #eb0505;
+    color: #d6e8eb;
     right: 4.5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
@@ -2622,7 +2622,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
+    padding-top: 1.2rem;
     padding-bottom: 13.2rem;
     background-color: #FFFFFF;
     color: #757575;
@@ -2760,14 +2760,14 @@ html.no-csstransitions .home-content__main {
    
     background: #FFFFFF;
     padding-bottom: 0rem;
-    min-height: 800px;
+    /* min-height: 800px; */
     position: relative;
     
     
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 36.2rem;
+    padding: 5rem 0 45rem;
     background: linear-gradient(135deg, #172a74, #21a9af);
     background-color: #25548d;
 }
@@ -2990,7 +2990,7 @@ html.no-csstransitions .home-content__main {
         padding-bottom: 0rem;
     }
     .s-works .intro-wrap {
-        padding: 6rem 0 35.2rem;
+        padding: 2rem 0 42.2rem;
     }
     .works-content {
         margin-top: -25.2rem;
@@ -3048,8 +3048,15 @@ html.no-csstransitions .home-content__main {
 .clients-testimonials {
     
     padding-top: 7.2rem;
+    
+    padding-bottom: 6rem;
     text-align: center;
     position: relative;
+    background-image: linear-gradient(135deg, rgb(23, 42, 116, 0.75), rgb(33, 169, 175));
+}
+
+.testimonials_header{
+    color: white;
 }
 
 .clients-testimonials::before {
@@ -3071,12 +3078,18 @@ html.no-csstransitions .home-content__main {
     margin: 0 10%;
 }
 
-.clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
-    font-size: 3rem;
+.clients-testimonials .testimonials_quote {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3rem;
     line-height: 1.8;
-    color: #555555;
-    margin-bottom: 6rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.clients-testimonials .testimonials_quote{
+    background-color: #ffffff15;
+    padding: 10px;
 }
 
 .clients-testimonials .testimonials__slide {
@@ -3084,11 +3097,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__avatar {
-    height: 8.4rem;
-    width: 8.4rem;
-    border-radius: 50%;
+    height: 15.4rem;
+    width: 15.4rem;
+    border-radius: 2%;
     margin: 0 auto 1.2rem auto;
 }
+
 
 .clients-testimonials .testimonials__name, 
 .clients-testimonials .testimonials__pos {
@@ -3097,12 +3111,14 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials__name {
     font-family: "montserrat-semibold", sans-serif;
-    color: #000000;
+    color: #eaf1f3;
+    font-weight: bold;
 }
 
 .clients-testimonials .testimonials__pos {
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
+    color: white;
 }
 
 .clients-testimonials .testimonials .slick-arrow {
@@ -3141,6 +3157,8 @@ html.no-csstransitions .home-content__main {
 }
 
 
+
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * clients
@@ -3149,8 +3167,8 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials {
         margin: 0 12%;
     }
-    .clients-testimonials .testimonials p {
-        font-size: 2.6rem;
+    .clients-testimonials .testimonials_quote{
+        font-size: 2.2rem;
     }
     .clients-testimonials .testimonials .slick-prev {
         left: -100px;
@@ -3161,7 +3179,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 1000px) {
-    .clients-testimonials .testimonials p {
+    .clients-testimonials .testimonials_quote{
         font-size: 2.2rem;
     }
 }
@@ -3186,6 +3204,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .clients-testimonials{
+        margin: 20px;
+    }
     .s-clients {
         padding-top: 12rem;
     }
@@ -3195,13 +3216,16 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials {
         margin: 0;
     }
-    .clients-testimonials .testimonials p {
+    .clients-testimonials .testimonials_quote{
         font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .clients-testimonials .testimonials p {
+    .clients-testimonials{
+        margin: 20px;
+    }
+    .clients-testimonials .testimonials_quote{
         font-size: 1.9rem;
     }
 }
@@ -3214,7 +3238,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("/images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3235,6 +3259,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact .form-field {
     position: relative;
+    
 }
 
 .s-contact .form-field:after {
@@ -3255,7 +3280,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #eb0505;
+    background: rgb(29, 192, 197);
 }
 
 .s-contact .form-field label::after {
@@ -3266,14 +3291,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #eb0505;
+    border-right: 5px solid rgb(29, 192, 197);
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #eb0505;
+    background-color: rgb(29, 192, 197);
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3283,7 +3308,7 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.7);
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3300,7 +3325,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #eb0505;
+    color:rgb(29, 192, 197);
 }
 
 .contact-content input[type="email"],

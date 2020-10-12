@@ -340,6 +340,12 @@
   -moz-transform: scale(2);
   -o-transform: scale(2);
   transform: scale(2); } }
+
+  #time_line_5cf90ca818fa80 .time_line-date{
+  color: #00d9ff;
+  }#time_line_5cf90ca818fa80 .time_line-content:before{
+  background: #00d9ff;
+  }
   #time_line_5cf90ca818f641 .time_line-date{
   color: #ffa705;
   }#time_line_5cf90ca818f641 .time_line-content:before{
