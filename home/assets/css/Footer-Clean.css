@@ -25,14 +25,15 @@
   /* text-align: center; */
 }
 .footer-widget a {
-  color: #a7b3c6;
+  color: #dadee6;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
 .footer-widget a:hover,
 .footer-widget a:focus {
   text-decoration: none;
-  color: #c0aa48;
+  color: #75d8d8;
+  font-weight: bold;
 }
 .footer-ecell-logo {
   margin-bottom: 40px;

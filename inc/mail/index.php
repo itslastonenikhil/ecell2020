@@ -40,10 +40,10 @@ try {
     $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('kushwahasameeerkumar@iiitg.ac.in', 'Sameer Kumar Kushwaha');
+    $mail->setFrom('contact.ecell@iiitg.ac.in', 'Contact Ecell');
     //$mail->addAddress('221010amank@gmail.com', 'Aman Singh');     // Add a recipient
-    $mail->addAddress('kushwahasameerkumar@gmail.com', 'Sameer');               // Name is optional
-    $mail->addReplyTo('kushwahasameerkumar@gmail.com', 'Sameer');
+    $mail->addAddress('ecell@iiitg.ac.in', 'Ecell');               // Name is optional
+    $mail->addReplyTo('ecell@iiitg.ac.in', 'Ecell');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 

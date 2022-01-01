@@ -558,7 +558,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #eb0505;
+    background: #05d0eb;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -600,7 +600,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #eb0505;
+    background-color: #05d0eb;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -947,8 +947,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #eb0505;
-    color: #eb0505;
+    border: 0.2rem solid #05ebd8;
+    color:  #05ebd8;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1176,7 +1176,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #eb0505;
+    color:  #05ebd8;
 }
 
 .stats-tabs li a em {
@@ -3352,7 +3352,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #eb0505;
+    border-bottom: 1px solid #0fceb4;
 }
 
 .contact-content button,
@@ -3443,7 +3443,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #eb0505;
+    color: #05ebd8;
 }
 
 .contact-social li:last-child {
@@ -3452,12 +3452,13 @@ html.no-csstransitions .home-content__main {
 
 .message-warning, 
 .message-success {
+    text-align: center;
     display: none;
-    background: #111111;
+    background: #363838;
     font-size: 1.5rem;
     line-height: 2;
-    padding: 3rem;
-    margin-bottom: 3.6rem;
+    padding: 10px;
+    /* margin-bottom: 0.6rem; */
     width: 100%;
 }
 
@@ -3466,13 +3467,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #eb0505;
+    color: #19dde4;
 }
 
 .message-warning i, .message-success i {
     margin-right: 10px;
     font-size: 1.2rem;
 }
+
 
 
 /* form loader
@@ -3595,9 +3597,9 @@ html.no-csstransitions .home-content__main {
     .contact-secondary::before {
         display: none;
     }
-    .message-warning, .message-success {
-        margin-bottom: 6rem;
-    }
+    /* .message-warning, .message-success {
+        margin-bottom: 0rem;
+    } */
 }
 
 @media only screen and (max-width: 800px) {
@@ -3658,7 +3660,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #eb0505;
+    color: #05e3eb;
 }
 
 footer .row {
@@ -3907,3 +3909,5 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+
